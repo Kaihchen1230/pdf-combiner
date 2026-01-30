@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run tauri:build:*)",
+      "Bash(npm run tauri:dev:*)",
+      "Bash(cargo clean:*)",
+      "Bash(taskkill:*)",
+      "Bash(dir:*)",
+      "Bash(npm run tauri:*)"
+    ]
+  }
+}
